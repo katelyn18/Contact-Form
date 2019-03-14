@@ -1,0 +1,21 @@
+/*
+Katelyn Jaing
+CPSC 431-01
+Homework 1: CSS file for contactform.html
+*/
+h1, h2, .footer{
+	font-family: 'Coiny', cursive;
+}
+
+td, input{
+	font-family: 'Teko', sans-serif;
+	font-size: 1.5em;
+}
+
+input{
+	font-size: 1em;
+}
+
+p{
+	font-family: 'Gloria Hallelujah', cursive;
+}

@@ -1,0 +1,63 @@
+<!--
+Katelyn Jaing
+CPSC 431-01
+Homework 1: contact form file
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Homework 1</title>
+		<link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<h1>Contact Form</h1>
+		<h2>By: katelyn18 </h2>
+		<form action="processcontact.php" method="post">
+			<table style="border: 0px">
+				<tr>
+					<td>Name</td>
+					<td><input type="text" name="name" size="50" maxlength="100" placeholder="Name" /></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input type="text" name="email" size="50" maxlength="100" placeholder="Email" /></td>
+				</tr>
+				<tr>
+					<td>Comment Field</td>
+					<td><textarea name="comment" rows="5" cols="50" placeholder="Comments"></textarea></td>
+				</tr>
+				<tr>
+					<td>Favorite Color</td>
+					<td>
+						<input type="radio" name="color" value="red" checked="checked">Red<br />
+						<input type="radio" name="color" value="green">Green<br />
+						<input type="radio" name="color" value="blue">Blue<br />
+						<input type="radio" name="color" value="yellow">Yellow<br />						
+						<input type="radio" name="color" value="orange">Orange<br />
+						<input type="radio" name="color" value="white">White<br />
+						<input type="radio" name="color" value="black">Black<br />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" style="text-align: center;">
+						<input type="submit" value="Submit Form" />
+					</td>
+				</tr>
+			</table>
+		</form>
+		<footer>
+			<p class='footer'>katelyn18 (c) 2019</p>
+		</footer>
+	</body>		
+</html>
+
+
+
+
+
+
+
+
